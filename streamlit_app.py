@@ -9,8 +9,8 @@ import json
 st.title("Nourish Mind")
 
 # Check if context.txt exists
-context_file = r"res\\context.txt"
-embedding_file = r"res\\context_embeddings.json"
+context_file = "res/context.txt"
+embedding_file = "res/context_embeddings.json"
 
 if not os.path.exists(context_file):
     st.error(f"File '{context_file}' not found.")
