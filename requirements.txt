@@ -1,1 +1,2 @@
 ollama
+sentence_transformers
